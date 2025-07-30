@@ -26,7 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdk 35
-
+    namespace ‘clipboard.watcher’
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
